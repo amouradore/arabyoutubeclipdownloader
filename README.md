@@ -1,46 +1,46 @@
-# T�l�chargeur YouTube en Arabe
+# تحميل مقاطع يوتيوب
 
-Ce projet propose une application Python avec une interface graphique (Tkinter) en arabe qui vous permet de t�l�charger un extrait (d�fini par un intervalle de temps) d'une vid�o YouTube en utilisant pytube.
+هذا المشروع عبارة عن تطبيق Python مع واجهة رسومية (Tkinter) باللغة العربية يتيح لك تحميل مقطع (محدد بفاصل زمني) من فيديو YouTube باستخدام pytube.
 
-## Fonctionnalit�s
+## المميزات
 
-- T�l�chargement d'un extrait vid�o : Sp�cifiez l'URL de la vid�o, le temps de d�but et le temps de fin (en minutes) pour extraire la portion souhait�e.
-- Interface Graphique en arabe : Utilisation de Tkinter pour une prise en main simple et intuitive.
-- S�lection du r�pertoire de sortie : Un bouton "????" permet de d�finir l'emplacement du fichier de sortie.
+- تحميل مقطع فيديو: حدد رابط الفيديو، وقت البداية ووقت النهاية (بالدقائق) لاستخراج الجزء المطلوب.
+- واجهة رسومية باللغة العربية: استخدام Tkinter لتجربة سهلة وبديهية.
+- اختيار مجلد الحفظ: زر "تصفح" يسمح بتحديد موقع حفظ الملف.
 
-## Pr�requis
+## المتطلبات الأساسية
 
-- Python 3 ou sup�rieur.
-- pytube (install� via le fichier requirements.txt)
-- Tkinter est inclus avec Python sur de nombreuses distributions.
+- Python 3 أو أحدث
+- pytube (يتم تثبيته عبر ملف requirements.txt)
+- Tkinter (مضمن مع Python في معظم التوزيعات)
 
-## Installation
+## التثبيت
 
-Cloner le d�p�t :
+نسخ المستودع:
 
-git clone https://github.com/votre-utilisateur/arabic-youtube-downloader.git
+git clone https://github.com/votre-utilisateur/arabyoutubeclipdownloader.git
 cd arabic-youtube-downloader
 
-(Optionnel) Cr�er et activer un environnement virtuel :
+(اختياري) إنشاء وتفعيل البيئة الافتراضية:
 
 python -m venv venv
-source venv/bin/activate  # Pour Windows : venv\Scripts\activate
+source venv/bin/activate  # لنظام Windows : venv\Scripts\activate
 
-Installer les d�pendances :
+تثبيت المتطلبات:
 
 pip install -r requirements.txt
 
-## Utilisation
+## طريقة الاستخدام
 
-Ex�cutez le script principal :
+قم بتشغيل البرنامج الرئيسي:
 
 python arabyoutubeclipdownloader.py
 
-Dans la fen�tre qui s'ouvre :
-1. Collez l'URL de la vid�o YouTube
-2. Entrez le temps de d�but en minutes
-3. Entrez le temps de fin en minutes
-4. Choisissez l'emplacement de sauvegarde avec le bouton "????"
-5. Cliquez sur "?????" pour d�marrer le t�l�chargement
+في النافذة التي تظهر:
+1. قم بلصق رابط فيديو YouTube
+2. أدخل وقت البداية بالدقائق
+3. أدخل وقت النهاية بالدقائق
+4. اختر مكان الحفظ باستخدام زر "تصفح"
+5. انقر على "تحميل" لبدء التحميل
 
-## Code Source
+## الكود المصدري
